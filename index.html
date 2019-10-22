@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+    <title>HOME | MEER</title>
+</head>
+<body>
+    <!-- start header section -->
+    <header>
+        <div class="container">
+            <div class="navbar d-flex justify-content-around">
+                <div class="logo"><a href='index.html'><img src="img/logo.png" alt="logo" draggable="false"></a></div>
+                <div class="slogan"><a href='index.html'><img src="img/slogan.png" alt="logo" draggable="false"></a></div>
+            </div>
+            <div class="showcase">
+                <div class="showcase-slider">
+                    <div class="show-item" style='background-image:url(img/slider.png)'></div>
+                    <div class="show-item" style='background-image:url(img/slider.png)'></div>
+                    <div class="show-item" style='background-image:url(img/slider.png)'></div>
+                </div>
+                <a href="#" download='download'><img src="img/menu-sign.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- start press button -->
+    <div class="daily-dish">
+        <div class="container">
+            <div class="press-btn">
+                <a href='menu.html'>اضغط للطبق اليومى</a>
+            </div>
+        </div>
+    </div>
+    <!-- end press button -->
+
+    <!-- start form section -->
+    <div class="form-area">
+        <div class="container">
+            <div class="form-box">
+                <div class="left-block">
+                    <h2>Subscription</h2>
+                    <form action="">
+                        <div>
+                            <label for="">Name :</label>
+                            <input type="text" required>
+                        </div>
+                        <div>
+                            <label for="">Email :</label>
+                            <input type="email" required>
+                        </div>
+                        <div>
+                            <div class='right-input'>
+                                <input type="radio" id='email-sub'>
+                                <label for="email-sub">Check here to receive email update</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="">Phone :</label>
+                            <input type="text" required>
+                        </div>
+                        <div class='date'>
+                            <label for="">Starting Date :</label>
+                            <input type="text"  class="form_datetime" required>
+                            <i class="far fa-calendar-alt right-corner"></i>
+                        </div>
+                        <div>
+                            <div class='flex-radio-parent'>
+                                <label for="">Subscriptions :</label>
+                                <div class='flex-radio right-input'>
+                                    <div><input type="radio" name='sub' id='radio-sub-1'><label for="radio-sub-1"> One meal-20 day/month ( 45 k.d )</label></div>
+                                    <div><input type="radio" name='sub' id='radio-sub-2'><label for="radio-sub-2">One meal-20 day/month ( 65 k.d )</label></div>
+                                    <div><input type="radio" name='sub' id='radio-sub-3'><label for="radio-sub-3">One meal-20 day/month ( 85 k.d )</label></div>
+                                    <div><input type="radio" name='sub' id='radio-sub-4'><label for="radio-sub-4">One meal-20 day/month ( 120 k.d )</label></div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type='submit'>SUBMIT</button>
+                    </form>
+                </div>
+                <div class="right-block">
+                    <h2>Catering</h2>
+                    <form action="">
+                        <div>
+                            <label for="">Name :</label>
+                            <input type="text" required>
+                        </div>
+                        <div>
+                            <label for="">Email :</label>
+                            <input type="email" required>
+                        </div>
+                        <div>
+                            <div class='right-input'>
+                                <input type="radio" id='email-cater'>
+                                <label for="email-cater">Check here to receive email update</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="">Phone :</label>
+                            <input type="text" required>
+                        </div>
+                        <div class='date'>
+                            <label for="">Date and time :</label>
+                            <input type="text" class='form_datetime' required>
+                            <i class="far fa-calendar-alt"></i>
+                        </div>
+                        <div>
+                            <label for="">Enter request :</label>
+                            <textarea name="" id="" rows=3></textarea>
+                        </div>
+                        <div>
+                            <div class='flex-radio-parent'>
+                                <label for="">Quantity :</label>
+                                <div class='flex-radio right-input'>
+                                    <div><input type="radio" name='quantity' id='radio-qua-1'><label for="radio-qua-1">10-15 guests</label></div>
+                                    <div><input type="radio" name='quantity' id='radio-qua-2'><label for="radio-qua-2">16-20 guests</label></div>
+                                    <div><input type="radio" name='quantity' id='radio-qua-3'><label for="radio-qua-3">21 & above</label></div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type='submit'>SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end form section -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="copyRights text-center">
+                <p>&copy; 2019 All Rights Reserved | Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src='js/jquery-3.3.1.min.js'></script>
+    <script src='js/bootstrap.bundle.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='js/bootstrap-datetimepicker.min.js'></script>
+    <script src='js/slick.min.js'></script>
+    <script src='js/wow.min.js'></script>
+    <script src='js/script.js'></script>
+    <script type="text/javascript">
+        $(".form_datetime").datetimepicker({
+            format: "dd MM yyyy - hh:ii"
+        });
+        $('.showcase-slider').slick({
+            autoplay: true,
+            speed: 500,
+            lazyLoad: 'ondemand',
+            autoplaySpeed: 2000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            arrows: false,
+            pauseOnHover: false
+        });
+    </script>   
+</body>
+</html>
